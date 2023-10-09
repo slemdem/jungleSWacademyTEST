@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    background-size: contain;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table,th,td{
+    text-align: right;
+    padding: 0.3rem 1rem;
+}
+th{
+    text-align: left;
+}
+
+tr{
+    height: 35px;
+}
+
+/* ------------------header----------------*/
+
+header{
+    height: 10vh;
+    background:  gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #icon{
+    font-size: 3rem; 
+    margin-left: 2rem;  
+    margin-right: 10px;   
+}
+
+
+/* ------------------nav----------------*/
+
+nav{
+    background: #a0a0a0;
+    height: 90vh;
+    min-height: 55rem;
+    width: 20%;
+    min-width: 10rem;
+    max-width: 18rem;
+    float: left;
+}
+nav>div{
+    margin: 2rem;
+}
+
+nav p{
+    font-size: 1.1rem;
+    margin: 0.3rem;
+}
+
+nav li{
+    margin: 0.5rem;
+}
+
+nav .navSerch{
+    inline-size: auto;
+}
+
+nav .navSerch input{
+    width: 70%;
+    min-width: 5rem;
+    max-width: 12rem;
+}
+
+
+/* ------------------section----------------*/
+
+section{
+    float: left;
+    height: 75vh;
+    width: 75%;
+    padding: 1%;
+    flex: 1;
+}
+
+section .select .title{
+    display: flex;
+    justify-items: normal;
+    align-items: center;
+}
+
+section .select .title p{
+    font-size: 3rem;
+    padding: 1rem;
+    font-weight: 800;
+    flex: 1;
+}
+
+section .select .bannerlist{
+    height: 6rem;
+    position: relative;
+    overflow: hidden;
+}
+
+section .select .banner .bannerSelected{
+    position: static;
+    right: 1rem;
+    height: 5rem;
+    width: 15rem;
+    margin: 0.5rem;
+    background-image: url(../img/Thorns.PNG);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+section .select .linkbtn>div{
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+/* -------------section .runresult----------------*/
+
+section .runresult{
+    min-width: 30rem;
+    width: auto;
+    max-width: 65rem;
+    border: solid 2px gray;
+    border-radius: 1rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+section .runresult .RR{
+    font-size: 1.3rem;
+    text-align: center;
+    min-width: 7rem;
+    width: 20%;
+    max-width: 11rem;
+    padding: 1rem;
+}
+
+/* -------------section.resultLine----------------*/
+
+section .resultLine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin: 2rem;
+}
+
+section .resultLine .btn{
+    width: 20vw;
+    border: solid    1px black;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section .resultLine .btn .runbtn button{
+    width: 30%;
+    margin: 1rem;
+    flex: 1.5;
+    border-radius: 1rem;
+
+}
+
+section .resultLine .btn #clear{
+    width: 50%;
+    margin: 1rem auto;
+    border-radius: 1rem;
+}
+
+
+/* -------------section.resultTotal----------------*/
+
+section .resultTotal{
+    width: auto;
+    position: relative;
+    height: 11rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+section .resultTotal .totalList{
+    height: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+section .resultTotal .totalList p{
+    margin: 5px;
+}
+
+section .coment{
+    width: auto;
+    padding: 1rem;
+    height: 20rem;
+    font-size: 1.2rem;
+}
+
+section .coment>div{
+    font-size: 3rem;
+}
+
+footer{
+    clear: both;
+    text-align: end;
+    background-color: grey;
+    padding: 1rem;
+}
+
+footer a{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: black;
+}

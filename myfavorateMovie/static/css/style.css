@@ -1,0 +1,79 @@
+
+.hero{
+    background-color: gold;
+    height: 200px;
+    padding: 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+.sorter-box {
+    width: 550px;
+}
+
+.movie-list {
+    width: 550px;
+    margin: 20px auto 0 auto;
+}
+
+.movie-title {
+    display: inline-block;
+}
+
+.movie-title:hover {
+    text-decoration: underline;
+}
+
+.card {
+    margin-bottom: 15px;
+    display: block;
+    border-radius: 0.5rem;
+    line-height: 0;
+}
+
+.card .row .col-md-3{
+    margin: auto;
+}
+
+.card img{
+    width: 50%;
+}
+
+.card .card-context{
+    display: inline-block;
+    line-height: 1;
+    width: 64%;
+    padding: 2%;
+}
+
+.card .card-context .movie-title{
+    font: bolder;
+    font-size: x-large;
+}
+.card .card-context>span{
+}
+
+.card .card-context>p{
+    margin: 20px 0;
+}
+.card .card-footer{
+    display: block;
+    width: 100%;
+    background-color: white;
+}
+    
+.card .card-footer>a:nth-child(1){
+    text-align: center;
+    display: inline-block;
+    width: 49%;
+    color: blue;
+}
+
+.card .card-footer>a:nth-child(2){
+    text-align: center;
+    display: inline-block;
+    width: 49%;
+    color: red;
+}

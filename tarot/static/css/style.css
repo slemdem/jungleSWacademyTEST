@@ -1,0 +1,64 @@
+*{
+    font-family: "Stylish", sans-serif;
+}
+
+.wrap{
+    width: 1000px;
+    margin: auto;
+}
+.jumbotron{
+    text-align: center;
+}
+.menu-control{
+    width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-control >div{
+    border: 1px black solid;
+    font-size: 1rem;
+    width: 25%;
+}
+
+.menu{
+    width: 90%;
+    height: 110%;
+    margin: auto;
+}
+
+.menu .menus{
+    border: 1px black solid;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.menu .menus .form-group{
+    row-gap: 1rem;
+}
+
+.menu h5{
+    color: gray;
+}
+
+.menu button{
+    position: relative;
+    padding: 0.5rem 1rem ;
+    left: 90%;
+}
+
+.show-card{
+    width: auto;
+    margin: auto;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.show-card .card{
+    min-width: 24%;
+    width: 25%;
+    padding: 4px;
+}
